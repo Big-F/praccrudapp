@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 //抽象クラス
 class Article extends Model
 {
-    @var string
+   // @var string
 
-  protecred $table = 'articles';
+  protected $table = 'articles';
 
-  	@var array
-  protecred $fillable =['title','body'];
+  	//@var array
+  protected $fillable =['title','body'];
 }
